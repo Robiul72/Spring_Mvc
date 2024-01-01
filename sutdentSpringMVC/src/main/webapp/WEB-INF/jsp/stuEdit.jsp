@@ -6,6 +6,37 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        
+        
+             <style>
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin-left: 10%;
+            }
+
+             td {
+                border: 1px solid #ddd;
+                padding: 7px;
+                text-align: left;
+            }
+
+            th {
+                background-color: gainsboro;
+            }
+            
+            h1{
+                text-align: center;
+                background-color: buttonface;
+                padding: 10px;
+               margin-left: 10%;
+               margin-right: 10%;
+            }
+
+           
+        </style>
+        
+        
     </head>
     <body>
         <h1>Student Edit Form</h1>
@@ -14,6 +45,7 @@
 
             <f:hidden  path="id" />
             <table>
+                
                 <tr>
                     <td>
                         Name
@@ -45,12 +77,21 @@
         </td>
     </tr>
     
-    Department: <f:select path="department">  
+    <tr>
+        <td>
+             Department:
+       
+        </td>
+        
+        <td>
+        <f:select path="department">  
         <f:option value="MD" label="MD"/>  
         <f:option value="Manager" label="Manager"/>  
-        <f:option value="Sales Man" label="Sales Man"/>  
-        
+        <f:option value="Sales Man" label="Sales Man"/>        
         </f:select>  
+        </td>
+        
+    </tr>
     
     
     
