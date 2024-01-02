@@ -50,7 +50,11 @@
                   
                 </table>
         </f:form>
+<<<<<<< HEAD
        <a href="/viewallemp">View ALl</a> 
+=======
+        
+>>>>>>> b6a6aeae6c03bea2f765b20f80b5350b2cfa1d76
 
     </body>
 </html>

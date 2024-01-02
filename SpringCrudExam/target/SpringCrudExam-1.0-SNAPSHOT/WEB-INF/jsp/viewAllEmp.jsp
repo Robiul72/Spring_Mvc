@@ -30,12 +30,19 @@
                         <td>${emp.salary}</td> 
                         
                         <td><a href="/empeditform/${emp.id}">Edit</a> 
+<<<<<<< HEAD
                         <a href="/deleteemp/${emp.id}">Delete</a></td> 
                     </tr>                  
                    
                 </c:forEach>
                     
                 <tr> <a href="/empsaveform">Add</a> </tr>
+=======
+                            <a href="/deleteemp/${emp.id}">Delete</a></td> 
+                    </tr>                  
+
+                </c:forEach>
+>>>>>>> b6a6aeae6c03bea2f765b20f80b5350b2cfa1d76
 
 
             </tbody>

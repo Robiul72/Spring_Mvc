@@ -22,14 +22,29 @@ public class EmployeeController {
     private EmployeeDao ed;
     
     
+<<<<<<< HEAD
     @RequestMapping("/")
     public String index() {
         return "index";
     }
+=======
+//    @RequestMapping("/")
+//    public String index() {
+//        return "index";
+//    }
+    
+    
+    
+    
+>>>>>>> b6a6aeae6c03bea2f765b20f80b5350b2cfa1d76
     @GetMapping("/viewallemp")
     public String viewAllEmp(Model m){
     
         List<Employee> empList=ed.getAllEmp();
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b6a6aeae6c03bea2f765b20f80b5350b2cfa1d76
         m.addAttribute("empList", empList);
         return "viewAllEmp";
     }
